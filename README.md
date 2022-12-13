@@ -26,6 +26,9 @@ git clone https://github.com/ARRETdaniel/P2P-chat-application
 
 P2P-Chat uses several python module. Make sure the package manager [pip](https://pip.pypa.io/en/stable/) is installed, so that p2p-chat can automatically install all required modules.
 
+
+Python version 2.
+
 ## Usage
 
 ```batch
