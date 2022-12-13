@@ -4,8 +4,6 @@ Este projeto se propõe a desenvolver uma aplicação que possibilita a comunica
 
 This project proposes to develop an application that enables the communication of systems in a decentralized way through client-server and P2P.
 
-SISTEMA P2P desenvolvido por Daniel Terra, Gabriel Gravina, João Bosco, Paulo Júnior.
-
 
 ## Installation
 
@@ -23,23 +21,24 @@ Windows:
 git clone https://github.com/ARRETdaniel/P2P-chat-application
 ```
 
-```batch
-cd ./P2P-chat-application
-```
 
 ## Requirements
 
 P2P-Chat uses several python module. Make sure the package manager [pip](https://pip.pypa.io/en/stable/) is installed, so that p2p-chat can automatically install all required modules.
 
 ## Usage
-Run **/run.py** to start the client.
+
+```batch
+cd ./P2P-chat-application
+```
+Run **ChatP2P.py** to start the client.
 ```batch
 python ChatP2P.py
 ```
 
 O projeto consiste em troca de mensagem P2P entre usuários via rede local ou VPN.
 
-# Passos para conexão:
+# connection steps / passos para conexão:
 
 ```
 1 - Defina um nome para o servidor (pode ser o padrão)
@@ -49,7 +48,7 @@ O projeto consiste em troca de mensagem P2P entre usuários via rede local ou VP
 5 - O endereço de IP do seu amigo aparecerá no campo à direita e já pode começar a troca de mensagens.
 ```
 
-# Report / Relatório :
+### Report / Relatório:
 
 - [RELATÓRIO FINAL: PROJETO SISTEMA DE BATE-PAPO DISTRIBUÍDO EM P2P](report/report.pdf)
 
@@ -62,3 +61,9 @@ If you want to contact with me you can reach me at [Twitter](https://twitter.com
 ### License
 
 This project is **free to use** and does not contains any license.
+
+---
+
+This code was presented for the Distributed Computing course in
+the Computer Science bachelor's degree @ UENF.
+Project development group: Daniel Terra, Gabriel Gravina, João Bosco,e  Paulo Júnior.
